@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDPC13</title>
+</head>
+
+<body>
+
+    <div id="intestazione">
+        <h1>Link ipertestuali:</h1>
+        <!-- collegamenti ipertestuali -->
+        <p>
+            Clicca <a href="https://www.lastampa.it">QUI </a> per La Stampa.
+        </p>
+
+        <div id="menu">
+
+
+            <!-- esempio di tag a per creare i menù -->
+            <ul>
+                <li>
+                    <a href="index.html">home page</a>
+                </li>
+                <li>
+                    <a href="about.html">chi siamo</a>
+                </li>
+                <li>
+                    <a href="servizi.html">servizi</a>
+                </li>
+                <li>
+                    <a href="contatti.html">contatti</a>
+                </li>
+            </ul>
+        </div>
+
+        <p style="color:red; font-weight: lighter;">
+            <strong>
+                Le pagine servizi e contatti non sono visibili in quanto non sono presenti ifile indicati nella cartella...
+            </strong>
+        </p>
+    </div>
+
+
+    <div id="contenutoPagina">
+
+        <!-- elementi BLOCK (vanno a capo) -->
+        <h2>Elementi di tipo BLOCK</h2>
+        <h3>(ad esempio h, p, div): viene creata una linea vuota sopra e una sotto di essi:</h3>
+        <p>primo paragrafo</p>
+        <p>secondo paragrafo</p>
+
+        <!-- elementi inline (sulla stessa linea) -->
+        <h2>Elementi di tipo INLINE</h2>
+        <h3>(ad esempio img, span, a): gli elementi vengono messi in linea</h3>
+        <img src="images/pippo.jfif" width="100" alt="">
+        <img src="images/pippo.jfif" width="100" alt="">
+
+        <!-- tag span -->
+        <h3>"prima scritta" e "seconda scritta" sono contenuti in due span e quindi non vanno a capo:</h3>
+        <span>prima scritta</span>
+        <span>seconda scritta</span>
+
+        <h3>Span è anche usato all'interno di un p per dare uno stile diverso ad una porzione di testo.</h3>
+        <p style="color:blue">
+            Questo paragrafo è blu, ma
+            <span style="color:red; background-color: yellow; font-size: large;">
+                due parole</span> sono rosse.
+        </p>
+
+        <h1>DIV (elementi di tipo BLOCK!)</h1>
+        <h2>Creare dei div</h2>
+        <p>Nell'attributo style impostare width (in percentuale o in px) ed impostare height.</p>
+        <p>Nell'esempio sotto:</p>
+        <ul>
+            <li>Div rosso: 500px x 500px che contiene:</li>
+            <ul>
+                <li>un paragrafo</li>
+                <li>un div verde 80 x 80px</li>
+                <li>un div giallo 80 x 40px con um margine a sinistra (margin-left) e un piccolo margine in basso
+                    (margin-bottom)</li>
+                <li>un div nero largo 80% (rispetto alla grandezza del div padre)</li>
+            </ul>
+            <li>un div blu che viene posizionato sotto il div rosso (e non a fianco in quanto i div sono BLOCK
+                elements!)</li>
+        </ul>
+
+        <!-- il tag div (elemento di tipo BLOCK)-->
+        <div style="background-color:red; width: 500px; height: 500px;text-align: center;">
+            <p style="text-align: left;">sono un paragrafo dentro div</p>
+
+            <div style="background-color: green; width: 80px; height: 80px;">
+            </div>
+
+            <div style="background-color: yellow; width: 80px; height: 40px;
+                        margin-left:35px; margin-bottom: 10px;">
+                <span>testo</span>
+            </div>
+
+            <div style="background-color: black; width:80%; height: 40px;">
+                <span></span>
+            </div>
+
+        </div>
+
+        <div style="background-color: blue; width: 600px; height: 10px;"></div>
+
+
+    </div> <!-- fine del div con id contenutoPagina -->
+
+</body>
+
+</html>
