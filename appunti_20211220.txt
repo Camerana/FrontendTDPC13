@@ -1,0 +1,43 @@
+20/12/2021
+
+Argomenti principali:
+	- tag <a>, <div> e <span> (elementi inline vs elementi block)
+
+***
+IL TAG A (LINK IPERTESTUALI)
+	
+	TAG: <a></a>
+	
+	ATTRIBUTO: href="..."
+	- Percorso assoluto:
+		href="https://www.google.com
+	- Percorso relativo:
+		href="contatti.html"
+
+	Al click sull'elemento che contiene il tag <a> l'utente verrà indirizzato verso il sito contenuto nell'attributo ref
+	E' possibile mettere all'interno di vari elementi html il tag <a>
+	Ad esempio: paragrafi, immagini, liste, ecc.
+
+***
+IL TAG DIV
+	- I div sono contenitori generici;
+	- sono elementi di tipo BLOCK (inserendo due div uno dopo l'altro, il secondo sarà posizionato in una nuova riga);
+	- la loro grandezza è definibile da width ed height per ora all'interno del tag style);
+
+***
+IL TAG SPAN
+	- al contrario di div è di tipo INLINE: inserendo due span uno dopo l'altro, saranno affiancati;
+	- è usato ad esempio all'interno di un p per formattare in modo diverso alcune parole
+	
+***
+POSIZIONAMENTO DEGLI ELEMENTI:
+	- all'interno del tag style, l'attributo margin è usato per spostare l'elemento.
+		- se vogliamo che spostare un div interno ad un altro div a sinistra--> margin-left: 100px;
+		- allostesso modo possiamo usare margin-top, margin-bottom e margin-right.
+		- per impostare un valore unico a tutti e quattro i margnin usiamo--> margin: 100px;
+
+***		
+ESERCITARSI:
+--> scaricare l'esempio di sito visto a lezione ed esaminare l'html
+--> creare dei siti con più pagine e menù navigabili per muoversi fra le pagine e tornare alla home
+--> creare dei div con colorazioni diverse, sia usando dimensioni in px che in percentuale, annidarli e provare a muoverli e distanziarli dagli altri div.
