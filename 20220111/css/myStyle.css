@@ -1,0 +1,43 @@
+
+/* Questo è un commento nel file css... */
+body {
+    font-family: 'Lucida Hardwriting', cursive; margin:0px;
+}
+#intestazione {
+    background-color: lightgreen;
+    text-align: center;
+}
+    h1 {
+        color:red;
+        font-size: 50px;
+        padding-top: 10px;
+        margin-top:0px;
+    }
+    h2 {
+        color:blue;
+        padding-bottom: 22px;
+    }
+#contenuto {
+    border: solid red 2px;
+    padding-left:50px;
+    width:50%;
+    margin-top: 10px;
+    margin-left:30px;
+}
+    .paroleImportanti {
+        color:red;
+        font-weight: bolder;
+    }
+    li {
+        color:red;
+        font-weight: bolder;
+    }
+#footer {
+    background-color: red;
+    color:white;
+    margin-top:80px;
+    padding-top:35px;
+    padding-left:40px;
+    padding-bottom:5px;
+    border: 8px dotted darkgrey;
+}

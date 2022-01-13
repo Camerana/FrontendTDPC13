@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPDP13</title>
+
+    <style>
+        body {
+            font-family: 'Lucida Hardwriting', cursive; margin:0px;
+        }
+        #intestazione {
+            background-color:lightseagreen;
+            text-align: center;
+        }
+            h1 {
+                color:red;
+                font-size: 50px;
+                padding-top: 10px;
+                margin-top:0px;
+            }
+            h2 {
+                color:blue;
+                padding-bottom: 22px;
+            }
+        #contenuto {
+            border: solid red 2px;
+            padding-left:50px;
+            width:50%;
+            margin-top: 10px;
+            margin-left:30px;
+        }
+            .paroleImportanti {
+                color:red;
+                font-weight: bolder;
+            }
+            li {
+                color:red;
+                font-weight: bolder;
+            }
+        #footer {
+            background-color: red;
+            color:white;
+            margin-top:80px;
+            padding-top:35px;
+            padding-left:40px;
+            padding-bottom:5px;
+            border: 8px dotted darkgrey;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="intestazione">
+        <h1>CSS</h1>
+        <h2>internal</h2>
+    </div>
+
+    <div id="contenuto">
+        <p>In questa pagina viene usato il css internal</p>
+        <p>
+            Con il CSS internal, lo stile è presente nella stessa pagina html (come per l'inline).
+            <br>
+            A differenza dell'inline, tutto il CSS viene raggruppato sotto il <span class="paroleImportanti">tag style</span> all'interno dell'head.
+        </p>
+        <p>
+            Anche in questo caso quindi, non separiamo completamente il contenuto dallo stile, ma
+            la pagina inizierà ad essere molto più <span class="paroleImportanti">ordinata</span>.
+        </p>
+        <hr>
+        <p>
+            Dobbiamo indicare:
+        </p>
+        <ul>
+            <li>il selettore (tag)</li>
+            <li>apertura perentesi graffa</li>
+            <li>le coppie chiave-valore separate da punto e virgola delle varie proprietà css che vogliamo usare</li>
+            <li>chiusura parentesi graffa</li>
+        </ul>
+    </div>
+
+
+    <div id="footer">
+        <p>Apri il sito con notepad++ o Visual Studio Code per vedere il codice delle pagine.</p>
+    </div>
+</body>
+
+</html>
