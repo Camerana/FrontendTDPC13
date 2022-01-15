@@ -1,0 +1,102 @@
+body {
+    margin:0px;
+    font-family:Monaco,monospace;
+    background-color: #f1f5f0; 
+}
+
+.senzaMargineSup {
+    margin-top:0;
+}
+.bianchissimo {
+    color: #ffffff;
+}
+
+#intestazione {
+    background-color: rgb(39, 35, 35);
+    color:rgb(231, 226, 218);
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+#intestazione span {
+    font-size: x-small;
+    font-weight: bolder;
+}
+#intestazione hr {
+    width: 50%;
+    margin-left: 0px;
+}
+#intestazione h1 {
+    padding-top: 17px;
+    text-shadow: 2px 2px 4px #00ef00;
+}
+
+#intestazione a:link, #intestazione a:visited {
+    color: #00ef00;
+    text-decoration: none;
+}
+#intestazione a:hover {
+    color: white;
+    font-weight: bold;
+}
+#intestazione #menu ul {
+    list-style-type: none;
+    
+}
+#intestazione #menu ul li {
+    padding-top: 5px;
+    letter-spacing: 3px;
+}
+
+
+#contenuto {
+    margin: 30px;
+}
+#consegna, #personale, #prodotti {
+    width: 70%;
+    background-color: #97e097;
+    border-left: #00ef00 5px solid;
+    padding: 10px 25px;
+
+}
+#consegna ul li {
+    padding-bottom: 5px;
+}
+#personale img {
+    height: 100px;
+    border-radius: 50% ;
+    border: #00ef00 5px solid;
+}
+#personale img:hover {
+    border: white 5px solid;
+}
+
+
+
+#footer {
+    background-color: rgb(39, 35, 35);
+    color:rgb(231, 226, 218);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+#footer p {
+    font-size: smaller;
+    font-style: italic;
+    color: #00ef00; 
+}
+
+
+
+th, td {
+    border: 1px black solid;
+    color: #208b20;
+}
+button {
+    background-color: #208b20;
+    color:rgb(231, 226, 218);
+    font-weight: bolder;
+    font-size: medium;
+    letter-spacing: 2px;
+}
