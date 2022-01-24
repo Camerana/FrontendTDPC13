@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            width: 320px;
+            background-color: rgba(132, 233, 102, 0.527);
+        }
+        input[type=submit], input[type=reset] {
+            width: 40%;
+            height: 40px;
+            border-radius: 6px;
+            color: white;
+            font-weight: bolder;
+            font-size: large;
+        }
+        input[type=submit] {
+            background-color: rgb(80, 238, 40);
+        }
+        input[type=reset] {
+            background-color: rgb(255, 115, 0);
+        }
+        #intro span em {
+            color: blue;
+        }
+
+        
+        input[type=text], input[type=password],
+        input[type=email], input[type=birth],
+        input[type=date],
+        select {
+            height: 30px;
+            width: 100%;
+            border-radius: 5px;
+            border:rgb(37, 177, 44) solid 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="intro">
+        <span><em>esempio form html</em></span>
+    </div>
+    <h1>Esempio form html</h1>
+
+    <form action="registrazione.aspx" method="get">
+        <!-- GET (dati visibili nell'url): .../registrazione.aspx?firstname=Danilo&lastname=Epatti&... -->
+        <!-- POST: .../registrazione.aspx -->
+
+        <fieldset>
+            <legend>Dati principali</legend>
+
+            <label for="firstname">Nome:</label><br>
+            <input type="text" name="firstname" id="firstname" required>
+            <br><br>
+
+            <label for="pwd">Password:</label><br>
+            <input type="password" name="pwd" id="pwd" disabled>
+            <br><br>
+
+            <label for="usermail">Email:</label><br>
+            <input type="email" name="usermail" id="usermail" value="daniloepatti@gmail.com" readonly>
+            <br><br>
+
+            <label for="birth">Data di Nascita:</label><br>
+            <input type="date" name="birth" id="birth">
+            <br><br>
+
+            <label for="provincianascita">Provincia di nascita:</label><br>
+            <select name="provincianascita">
+                <option value="">Seleziona</option>
+                <option value="TO">Torino</option>
+                <option value="RM">Roma</option>
+                <option value="FI">Firenze</option>
+                <option value="CT">Catania</option>
+            </select>            
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Altri dati</legend>
+            <label for="note">Note:</label><br>
+            <textarea name="note" style="max-width: 300px;"
+                placeholder="scrivi qui le tue note..."></textarea>
+            <br><br>
+
+            <span>Seleziona le serie tv che hai visto:</span><br>
+            <input type="checkbox" name="breakingbad" value="BB" checked>
+            <label for="breakingbad">Breaking Bad</label>
+            <br>
+            <input type="checkbox" name="prisonbreak" value="PB">
+            <label for="prisonbreak">Prison Break</label>
+            <br>
+            <input type="checkbox" name="greysanatomy" value="GA" checked>
+            <label for="greysanatomy">Grey's Anatomy</label>
+            <br><br>
+
+            <span><em>Genere:</em></span><br>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Maschile</label>
+            <input type="radio" name="gender" value="female">
+            <label for="female">Femminile</label>
+            <br><br>
+
+            <label for="caricafile">Carica allegato/i:</label><br>
+            <input type="file" name="caricafile" multiple>
+            <br><br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <input type="submit" value="Invia!">
+            <input type="reset" value="Pulisci">
+        </fieldset>
+        <br>
+
+    </form>
+
+</body>
+
+</html>

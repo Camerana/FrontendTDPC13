@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border-collapse: collapse;
+        }
+        th, td {
+            height: 30px;
+        }
+        table {
+            border: 2px black solid;
+        }
+        
+        th {
+            border: 2px black solid;
+            background-color: grey;
+            color: white;
+        }
+
+        td {
+            border: 1px black solid;
+            background-color: rgb(206, 200, 200);
+        }
+
+        /* seleziona prima, seconda e terza colonna */
+        td:first-child {
+            width: 200px;
+        }
+        td:nth-child(2) {
+            width: 100px;
+        }
+        td:nth-child(3) {
+            width: 50px;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Tabella</h1>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Età</th>
+        </tr>
+        <tr>
+            <td>Pluto</td>
+            <td>Bianchi</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Pippo</td>
+            <td>Rossi</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Luca</td>
+            <td>Giurato</td>
+            <td>89</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
