@@ -1,0 +1,109 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#tabAnagrafica {
+    border-collapse: collapse;
+}
+
+#tabAnagrafica th, #tabAnagrafica td  {
+    border: 1px solid rgb(163, 153, 153);
+    width: 200px;
+    padding-left: 12px;
+}
+
+#tabAnagrafica th {
+    height: 40px;
+    text-align: left;
+}
+#tabAnagrafica td {
+    height: 30px;
+}
+
+/* #tabAnagrafica tr:first-child {
+    background-color: yellow;
+} */
+/* #tabAnagrafica tr:nth-child(2) {
+    background-color: yellow;
+} */
+
+/* #tabAnagrafica td:nth-child(3) {
+    background-color: yellow;
+} */
+
+#tabAnagrafica tr:nth-child(odd) {
+    background-color: rgb(200, 200, 184);
+}
+#tabAnagrafica tr:nth-child(even) {
+    background-color: rgb(241, 241, 230);
+}
+
+#tabAnagrafica tr:hover {
+    background-color: white;
+}
+
+#tabNumeri {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#tabNumeri td {
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+#tabNumeri td:hover {
+    background-color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+#tabTelefoni {
+    border-collapse: collapse;
+}
+#tabTelefoni th, #tabTelefoni td {
+    border: 1px solid grey;
+    width: 200px;
+    height: 30px;
+    /* text-align: left; */
+    padding-left: 20px;
+}
+
+
+
+#esempio {
+    border-collapse: collapse;
+}
+#esempio th, #esempio td {
+    border: 1px black solid;
+} 
+#esempio tr:first-child{
+    background-color: red;
+}
+#esempio th:first-child,
+#esempio th:last-child {
+    width: 100px;
+    background: red;
+}
+#esempio td {
+    text-align:center;
+}
+#esempio td:hover {
+    background-color: black;
+    color:white;
+}
+
+#esempio2 {
+    border-collapse: collapse;
+}
+#esempio2 td, #esempio2 th {
+    border: solid 1px gray;
+}
+#esempio2 tr:last-child td,
+#esempio2 tr:first-child th {
+    height: 100px;
+    background-color: yellow;
+}
+ 
