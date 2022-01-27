@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+}
+#menu {
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+}
+
+#footer {
+    background-color: rgb(154, 106, 202);
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom:0px;
+}

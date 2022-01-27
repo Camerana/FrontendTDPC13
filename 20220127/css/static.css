@@ -1,0 +1,18 @@
+#container {
+    border: 2px black dotted;
+    width: 500px;
+    height: 350px;
+}
+
+#box1 {
+    background-color: yellow;
+    width: 200px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+#box2 {
+    background-color: orange;
+    width: 200px;
+    height: 60px;
+    
+}
