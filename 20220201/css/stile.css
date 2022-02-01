@@ -1,0 +1,48 @@
+#box1 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+
+    /* transition-property: height;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s; */
+
+    transition: height 2s ease 1s,
+                width 5s ease 1s,
+                background-color 2s ease-in-out 1s;
+}
+
+#box1:hover {
+    height: 450px;
+    width: 600px;
+    background-color: red;
+}
+
+
+
+
+
+
+#box2 {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+
+    transition: transform 10s;
+}
+#box2 span {
+    font-size: 35px;
+}
+#box2:hover {
+    /* transform: translate(500px, 500px); */
+    /* transform: rotate(-180deg)
+               scale(0.5); */
+
+
+    /* trasformazioni 3d */
+    transform: rotateX(180deg);
+}
+
+
+
