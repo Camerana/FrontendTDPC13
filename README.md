@@ -14,3 +14,4 @@
 - 13	    [2022_02_08]		breve introduzione a Bootstrap 5	
 - 14	    [2022_02_10]		introduzione a JavaScript, variabili	
 - 15      [2022_02_28]    v01 + ripasso bootstrap e js (concatenazione con template literals)
+- 16      [2022_03_01]    ripasso bootstrap, intro DOM js, intro javascript, variabili, ecc
