@@ -15,4 +15,5 @@
 - 14	    [2022_02_10]		introduzione a JavaScript, variabili	
 - 15      [2022_02_28]    v01 + ripasso bootstrap e js (concatenazione con template literals)
 - 16      [2022_03_01]    ripasso bootstrap, intro DOM js, intro javascript, variabili, ecc
-- 17      [2022_03_07]    manipolazione DOM, funzioni, eventi (onclick)
+- 17      [2022_03_07]    manipolazione DOM (getElementById), funzioni, eventi (onclick)
+- 18      [2022_03_08]    DOM (altri getElement..), bootstrap 5
