@@ -1,0 +1,32 @@
+/* css homepage */
+.scritteRosse {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.testoCentrato {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* css esercizio */
+img {
+    width: 150px;
+    height: 150px;
+    border: black solid 5px;
+}
+img:hover {
+    border: rgb(221, 129, 24) solid 5px;
+}
+.arancio {
+    color: rgb(221, 129, 24);
+    font-weight: bold;
+}
+.blu {
+    color: rgb(17, 29, 202);
+}
+.verde {
+    color: rgb(6, 105, 19);
+}
