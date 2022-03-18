@@ -1,0 +1,13 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.sezione {
+    background-color: grey;
+    padding: 20px;
+}
+
+#mioPar {
+    display: none;
+}
