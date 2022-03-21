@@ -18,3 +18,5 @@
 - 17      [2022_03_07]    manipolazione DOM (getElementById), funzioni, eventi (onclick)
 - 18      [2022_03_08]    DOM (altri getElement..), bootstrap 5
 - 19      [2022_03_10]    BS5 alert, JS createElement, aggiungere/rimuovere classi
+- 20      [2022_03_18]    introduzione a JQuery
+- 21      [2022_03_21]    ripasso JQuery, intro a OOP, oggetti JavaScript
