@@ -19,4 +19,5 @@
 - 18      [2022_03_08]    DOM (altri getElement..), bootstrap 5
 - 19      [2022_03_10]    BS5 alert, JS createElement, aggiungere/rimuovere classi
 - 20      [2022_03_18]    introduzione a JQuery
-- 21      [2022_03_21]    ripasso JQuery, intro a OOP, oggetti JavaScript
+- 21      [2022_03_21]    ripasso JQuery, intro a OOP, oggetti JavaScript, esercizio tabella popolata da opggetto js
+- 22      [2022_03_22]    ripasso oggetti js, revisione esercizio lezione precedente, OOP di javascript: le classi 
