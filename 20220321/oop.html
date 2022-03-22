@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // const nome = 'Pippo';
+        // var eta = 89;
+        // var media = 5.35154;
+        // var patentato = false;
+        // var interessi = ['cucina', 'sfilate di moda'];
+
+        const persona = {
+            nome: 'Pippo',
+            eta: 89,
+            patentato: false,
+            interessi: ['cucina', 'sfilate di moda'],
+            indirizzo: {
+                cap: 123456,
+                citta: 'Torino'
+            },
+            saluta: function() {
+                console.log(`ciao sono ${this.nome}`);
+            }
+        }
+        
+
+        persona.saluta(); // "ciao sono Pippo"
+
+        // dot notation .
+        // for(i = 0; i< persona.interessi.length; i++) {
+        //     console.log(persona.interessi[i]);
+        // }
+
+        // sovrascrivo proprietà
+        persona.nome = 'Paolo';
+
+        // creo nuova proprietà
+        persona.coloreOcchi = 'verdi';
+
+        //console.log(persona);
+        
+        // bracket notation []
+        // console.log(persona['eta']);
+
+        /*
+        |   nome        |   Pippo       |
+        |   foto        |    ...        |
+        |   età         |    ...        |
+        |   interessi   |    ...        |
+        */
+
+
+    </script>
+</body>
+
+</html>

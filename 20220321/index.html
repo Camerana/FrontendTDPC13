@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <button id="btn">Cliccami</button>
+    <p id="uno">ciao</p>
+
+    <script>
+        $(document).ready(function () {
+            // jQuery methods go here...
+
+            // javascript puro
+            var p = document.getElementById('uno');
+            p.style.display = 'none';
+            p.style.color = 'red';
+            p.innerText = 'aaaaaa';
+            p.innerHTML = 'bbb <b>ccc</b> ddd';
+
+            document.getElementById('btn').onclick = function () {
+                // codice che scatta al click del button
+            }
+
+            // jquery
+            $('#uno').hide();
+            $('#uno').css('color','yellow');
+            $('#uno').text('aaaaaa');
+            $('#uno').html('bbb <b>ccc</b> ddd');
+            $('button').click(function () {
+                // codice che scatta al click del button
+            });
+
+            $('button').click(function () {
+                // codice che scatta al click del button
+            });
+
+        });
+    </script>
+</body>
+
+</html>
