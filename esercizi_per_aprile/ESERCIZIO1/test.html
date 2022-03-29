@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Consegna:</h3>
+    <p>Al click sul pulsante:</p>
+    <ol>
+        <li>Creare un'istanza di un oggetto</li>
+        <li>Memorizzare la nuova istanza in un array</li>
+        <li>Nella console, loggare il contenuto dell'array</li>
+        <li>Visualizzare a schermo dei dati della nuova istanza creata</li>
+    </ol>
+    <p>
+        <b>N.B: in questo esempio, al click viene creata un'istanza contentente sempre gli stessi dati.</b>
+    </p>
+    <button id="btnAggiungiUtente">Aggiungi</button>
+    <div id="listaUtenti"></div>
+
+
+    <script>
+        // dichiaro la classe con le proprietà dell'oggetto
+        class Utente {
+            constructor(id, nome, cognome) {
+                this.id = id;
+                this.nome = nome;
+                this.cognome = cognome;
+            }
+        }
+
+        // creo un array di utenti vuoto:
+        let elencoUtenti = [];
+
+        // al click:
+        document.getElementById('btnAggiungiUtente').onclick = function() {
+
+            // creo istanza dell'oggetto Utente
+            let u = new Utente(100, 'Walter', 'White');
+
+            // aggiungo all'array l'istanza creata:
+            elencoUtenti.push(u);
+
+            // loggo a schermo il nuovo contenuto dell'array:
+            console.log(elencoUtenti);
+
+            // a schermo ad ogni click aggiungo dei dati dell'istanza creata:
+            document.getElementById('listaUtenti').innerHTML += `
+                <p>${u.id} - ${u.nome} ${u.cognome}</p> 
+            `;
+
+        };
+
+    </script>
+</body>
+</html>
