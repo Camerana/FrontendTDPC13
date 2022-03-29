@@ -21,3 +21,5 @@
 - 20      [2022_03_18]    introduzione a JQuery
 - 21      [2022_03_21]    ripasso JQuery, intro a OOP, oggetti JavaScript, esercizio tabella popolata da opggetto js
 - 22      [2022_03_22]    ripasso oggetti js, revisione esercizio lezione precedente, OOP di javascript: le classi 
+
+- extra   [esercizi_per_aprile] esercizi vari per ripasso dei concetti visti a lezione principalmente su bootsrap e javascript 
