@@ -23,3 +23,5 @@
 - 22      [2022_03_22]    ripasso oggetti js, revisione esercizio lezione precedente, OOP di javascript: le classi 
 
 - extra   [esercizi_per_aprile] esercizi vari per ripasso dei concetti visti a lezione principalmente su bootsrap e javascript 
+
+- 23      [2022_05_03]    JSON
