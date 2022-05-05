@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nome": "Luca",
+        "vivo": true,
+        "figli": [
+            {
+                "nome": "asdas",
+                "eta": 10
+            },
+            {
+                "nome": "rtere",
+                "eta": 89
+            }
+        ],
+        "coloreCapelli": "rosa"
+    },
+    {
+        "id": 2,
+        "nome": "Mara",
+        "vivo": true,
+        "figli": [
+            {
+                "nome": "asdas",
+                "eta": 10
+            },
+            {
+                "nome": "rtere",
+                "eta": 89
+            }
+        ],
+        "coloreCapelli": "blu"
+    },
+    {
+        "id": 3,
+        "nome": "Pippo",
+        "vivo": true,
+        "figli": [
+            {
+                "nome": "asdas",
+                "eta": 10
+            },
+            {
+                "nome": "rtere",
+                "eta": 89
+            }
+        ],
+        "coloreCapelli": "N/A"
+    },
+    {
+        "id": 4,
+        "nome": "Alex",
+        "vivo": true,
+        "figli": [
+            {
+                "nome": "asdas",
+                "eta": 10
+            },
+            {
+                "nome": "rtere",
+                "eta": 89
+            }
+        ],
+        "coloreCapelli": "neri"
+    },
+    {
+        "id": 5,
+        "nome": "Mimmo",
+        "vivo": true,
+        "figli": [
+            {
+                "nome": "asdas",
+                "eta": 10
+            },
+            {
+                "nome": "rtere",
+                "eta": 89
+            }
+        ],
+        "coloreCapelli": "azzurri"
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "nome": "Luca",
+    "vivo": true,
+    "figli": [
+        {
+            "nome": "asdas",
+            "eta": 10
+        },
+        {
+            "nome": "rtere",
+            "eta": 89
+        }
+    ],
+    "coloreCapelli": "rosa"
+}
