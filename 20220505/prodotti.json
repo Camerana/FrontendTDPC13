@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1001,
+        "nome": "penna",
+        "descrizione": "bellissima penna bic colore blu"
+    },
+    {
+        "id": 1002,
+        "nome": "libro",
+        "descrizione": "romanzo giallo di 666 pagine"
+    },
+    {
+        "id": 1003,
+        "nome": "maglia",
+        "descrizione": "fantastica maglia invernale di colore rosso-blu"
+    }
+]

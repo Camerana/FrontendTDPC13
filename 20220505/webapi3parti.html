@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="contenuto"></div>
+
+
+    <script>
+        // ajax per leggere json
+        let reqUrl = 'https://www.breakingbadapi.com/api/characters/1';
+        let req = new XMLHttpRequest();
+        req.open('GET', reqUrl);
+        req.responseType = 'json';
+        req.send();
+
+        req.onload = function() {
+            let data = req.response;
+            console.log(data);
+            stampaImmagine(data);
+        }
+
+        function stampaImmagine(personaggio) {
+            const div = document.getElementById('contenuto');
+            div.innerHTML = `
+                <p>NICKNAME: ${personaggio[0].nickname}</p>
+                <img src="${personaggio[0].img}">
+            `;
+
+        }
+    </script>
+</body>
+</html>

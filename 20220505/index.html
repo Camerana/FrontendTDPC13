@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div id="listaProdotti"></div>
+
+
+
+    <script>
+        // ajax per leggere json
+        let reqUrl = 'prodotti.json';
+        let req = new XMLHttpRequest();
+        req.open('GET', reqUrl);
+        req.responseType = 'json';
+        req.send();
+
+
+        req.onload = function() {
+            let data = req.response;
+            console.log(data);
+            stampaProdotti(data);
+        }
+
+        const contenitore = document.getElementById('listaProdotti');
+
+        function stampaProdotti(prodotti) {
+            prodotti.forEach(function(p) {
+                console.log(p);
+                const par = document.createElement('p'); // <p></p>
+                // par.innerText = p.nome;     // <p>nome prod</p>
+                par.innerHTML = `
+                    <b>ID:</b> ${p.id} <br>
+                    <b>PRODOTTO:</b> ${p.nome} <br>
+                    <b>DESCR:</b> ${p.descrizione} <br>
+                    <hr>
+                `;
+                contenitore.appendChild(par); 
+                // <div><p>nome prod</p></div>
+            });
+        }
+
+    </script>
+</body>
+</html>
