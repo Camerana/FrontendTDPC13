@@ -25,4 +25,5 @@
 - extra   [esercizi_per_aprile] esercizi vari per ripasso dei concetti visti a lezione principalmente su bootsrap e javascript 
 
 - 23      [2022_05_03]    JSON
-- 24      [2022_05_09]    JSON, querySelector, fetch, $get
+- 24      [2022_05_09]    JSON, querySelector, fetch, $.get
+- 25      [2022_05_10]    ripasso chiamate we api ($.get, XMLHttp, fetch), proprietà value degli input, bs5 card
