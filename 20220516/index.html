@@ -45,7 +45,7 @@
         //    console.log(listaProv.value);
         // }
 
-        listaProv.onchange = function () {
+        listaProv.addEventListener('click', function () {
             console.log(listaProv.value);
 
             if (listaProv.value == 'AO' ||
@@ -55,7 +55,7 @@
             else {
                 p.hidden = true;
             }
-        }
+        });
 
         fetch(url)
             .then(response => response.json())
