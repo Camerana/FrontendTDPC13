@@ -28,3 +28,4 @@
 - 24      [2022_05_09]    JSON, querySelector, fetch, $.get
 - 25      [2022_05_10]    ripasso chiamate we api ($.get, XMLHttp, fetch), proprietà value degli input, bs5 card
 - 26      [2022_05_12]    web api cocktails impaginato su card di bs5 e tasto collapse
+- 27      [2022_05_16]    menù a tendina (tag select+option) e json/web api (esempio province), addEventListener() 
