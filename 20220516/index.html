@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <input type="text"> -->
+
+    <select>
+        <option value="">seleziona provincia</option>
+        <!-- <option value="TO">Torino</option>
+        <option value="MI">Milano</option>
+        <option value="RM">Roma</option> -->
+    </select>
+
+    <!-- <button>Esegui</button> -->
+
+    <hr>
+
+    <p hidden>
+        Sezione dedicata solo ai residenti nelle
+        proivincie di: Aosta e Roma.
+    </p>
+
+
+
+
+    <script>
+        //const btn = document.querySelector('button');
+        // const input = document.querySelector('input');
+        const listaProv = document.querySelector('select');
+        const p = document.querySelector('p');
+
+        const url = 'province.json';
+        // const url = 'https://comuni-ita.herokuapp.com/api/regioni';
+
+        // btn.onclick = function() {
+        // //    console.log(input.value);
+        //    console.log(listaProv.value);
+        // }
+
+        listaProv.onchange = function () {
+            console.log(listaProv.value);
+
+            if (listaProv.value == 'AO' ||
+                listaProv.value == 'RM') {
+                p.hidden = false;
+            }
+            else {
+                p.hidden = true;
+            }
+        }
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                data.province.forEach(function (p) {
+                    listaProv.innerHTML += `
+                    <option value="${p.sigla}">${p.nome}</option>  
+                `;
+                });
+            });
+
+
+
+
+        const btn = document.querySelector('#btn1');
+
+        btn.onclick = function () {
+            // da fare
+        }
+
+
+
+        btn.addEventListener('click', function () {
+
+        })
+
+
+        select.addEventListener('change', function () {
+
+        })
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

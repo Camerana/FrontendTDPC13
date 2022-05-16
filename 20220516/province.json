@@ -1,0 +1,24 @@
+{
+    "province":[
+        {
+            "nome": "Torino",
+            "sigla": "TO"
+        },
+        {
+            "nome": "Milano",
+            "sigla": "MI"
+        },
+        {
+            "nome": "Aosta",
+            "sigla": "AO"
+        },
+        {
+            "nome": "Roma",
+            "sigla": "RM"
+        },
+        {
+            "nome": "Catania",
+            "sigla": "CT"
+        }
+    ]
+}
